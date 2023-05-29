@@ -1,5 +1,4 @@
 /**
- * // useWindowDimension.ts
  * * This hook returns the viewport/window height and width
  */
 
@@ -17,6 +16,7 @@ const useWindowDimensions = (): WindowDimentions => {
   });
 
   useEffect(() => {
+    // Handle window resize
     function handleResize(): void {
       setWindowDimensions({
         width: window.innerWidth,

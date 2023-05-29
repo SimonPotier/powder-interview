@@ -1,3 +1,7 @@
+/**
+ * * Clips index page: show all clips from a specific category and allow clip playing
+ */
+
 import type { GetStaticProps } from "next";
 import { Clip } from "..";
 import ClipCategory from "../../components/clip/clipCategory";
@@ -24,13 +28,13 @@ export default function Clips({ clips }) {
     if (category === "Recents") {
       // We do not have a category "Recents" in the API data
       // so we show all the clips sorted by createdAt instead.
-      filteredClips = clips.sort((a, b) => {
-        // @ts-ignore
-        return (
+      filteredClips = clips.sort(
+        (a, b) =>
+          // @ts-ignore
           moment.unix(a.createdAt).format("H") -
+          // @ts-ignore
           moment.unix(b.createdAt).format("H")
-        );
-      });
+      );
     } else {
       filteredClips = clips.filter((clip) => clip.category === category);
     }

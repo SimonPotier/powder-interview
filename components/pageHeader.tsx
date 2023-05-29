@@ -1,3 +1,7 @@
+/**
+ * * PageHeader component: add extra navigation
+ */
+
 import Image from "next/image";
 import { Button, Container } from "react-bootstrap";
 

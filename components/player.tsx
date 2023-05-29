@@ -1,3 +1,7 @@
+/**
+ * * Player component: handle clip playing
+ */
+
 import { Clip } from "../pages";
 
 interface PlayerProps {
@@ -5,7 +9,6 @@ interface PlayerProps {
 }
 
 const Player = ({ clip }) => {
-  console.log(clip);
   return (
     <div>
       <video width="100%" height="100%" controls autoPlay>

@@ -1,3 +1,7 @@
+/**
+ * * Index page: handle clips categories preview and allow clip playing
+ */
+
 import { useMemo } from "react";
 import Head from "next/head";
 import type { GetStaticProps } from "next";
@@ -31,12 +35,14 @@ export default function Home({ clips }) {
   } = useClip();
   const { width } = useWindowDimensions();
 
+  // extract all clips categories
   const findCategories = (clips: Clip[]): string[] => {
     return [...new Set(clips.map((clip) => clip.category))];
   };
 
   const clipCategories = useMemo(() => findCategories(clips), [clips]);
 
+  // helper fn for handling responsive design layout
   const displayedClipsNumber = (width) => {
     let n;
     switch (true) {
@@ -54,7 +60,6 @@ export default function Home({ clips }) {
   };
 
   const clipsNumber = useMemo(() => displayedClipsNumber(width), [width]);
-  console.log(clipsNumber);
 
   return (
     <>

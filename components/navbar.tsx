@@ -1,3 +1,7 @@
+/**
+ * * Navbar component: handle root navigation
+ */
+
 import Link from "next/link"; // import Link from "next/link";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";

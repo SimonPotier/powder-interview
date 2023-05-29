@@ -1,3 +1,7 @@
+/**
+ * * Clip modal: handle clips modal interactions
+ */
+
 import { useCallback, useEffect, useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 

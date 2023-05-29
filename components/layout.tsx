@@ -1,3 +1,7 @@
+/**
+ * * Layout component: default layout wrapper
+ */
+
 import Navbar from "./navbar";
 import Container from "react-bootstrap/Container";
 import PageHeader from "./pageHeader";
