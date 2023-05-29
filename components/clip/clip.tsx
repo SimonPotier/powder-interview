@@ -1,9 +1,12 @@
 import moment from "moment";
 import Image from "next/image";
 
-const Clip = ({ clip }) => {
+const Clip = ({ clip, handleCurrentClip }) => {
   return (
-    <div className="category-clip-wrapper">
+    <div
+      className="category-clip-wrapper"
+      onClick={() => handleCurrentClip(clip)}
+    >
       <div className="category-clip">
         <Image
           src={clip.image}

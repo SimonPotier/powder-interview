@@ -1,10 +1,10 @@
 import Head from "next/head";
-import type { InferGetStaticPropsType, GetStaticProps } from "next";
-import { useQueryClient, useQuery } from "@tanstack/react-query";
+import type { GetStaticProps } from "next";
 
-// import { fetchClips } from "../providers/clips";
 import ClipCategory from "../components/clip/clipCategory";
-import { useMemo } from "react";
+import { useCallback, useMemo, useState } from "react";
+import ClipModal from "../components/modals/clipModal";
+import Player from "../components/player";
 
 export interface Clip {
   category: string;
@@ -14,24 +14,27 @@ export interface Clip {
 }
 
 export default function Home({ clips }) {
-  // const queryClient = useQueryClient();
-
-  // const {
-  //   isLoading,
-  //   isError,
-  //   data: clips,
-  // } = useQuery({
-  //   queryKey: ["fetchClips"],
-  //   queryFn: fetchClips,
-  // });
-
-  console.log(clips);
+  const [currentClip, setCurrentClip] = useState(null);
+  const [clipModalOpen, setClipModalOpen] = useState(false);
 
   const findCategories = (clips: Clip[]): string[] => {
     return [...new Set(clips.map((clip) => clip.category))];
   };
 
   const clipCategories = useMemo(() => findCategories(clips), [clips]);
+
+  const handleCurrentClip = useCallback(
+    (clip: Clip) => {
+      setCurrentClip(clip);
+      setClipModalOpen(true);
+    },
+    [setCurrentClip, setClipModalOpen]
+  );
+
+  const bodyContent = useMemo(
+    () => <Player clip={currentClip} />,
+    [currentClip]
+  );
 
   return (
     <>
@@ -44,9 +47,17 @@ export default function Home({ clips }) {
       <main>
         {clips && clips.length > 0 && (
           <>
-            <ClipCategory clips={clips.slice(0, 5)} name="Recents" />
-            {clipCategories.map((category) => (
+            <ClipCategory
+              showSeeAll
+              clips={clips.slice(0, 5)}
+              name="Recents"
+              handleCurrentClip={(clip) => handleCurrentClip(clip)}
+            />
+            {clipCategories.map((category, index) => (
               <ClipCategory
+                key={index}
+                showSeeAll
+                handleCurrentClip={(clip) => handleCurrentClip(clip)}
                 clips={clips
                   .filter((clip) => clip.category === category)
                   .slice(0, 5)}
@@ -55,6 +66,12 @@ export default function Home({ clips }) {
             ))}
           </>
         )}
+        <ClipModal
+          isOpen={clipModalOpen}
+          title="Filters"
+          body={bodyContent}
+          onClose={() => setClipModalOpen(false)}
+        />
       </main>
     </>
   );

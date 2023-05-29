@@ -8,6 +8,7 @@
   "dependencies": {
     "@tanstack/react-query": "^4.29.12",
     "@tanstack/react-query-devtools": "^4.29.12",
+    "@types/react-bootstrap": "^0.32.32",
     "bootstrap": "^5.2.3",
     "moment": "^2.29.4",
     "next": "latest",
