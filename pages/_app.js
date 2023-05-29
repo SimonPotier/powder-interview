@@ -1,10 +1,8 @@
 import "../styles/globals.scss";
 import "../styles/index.scss";
-import "bootstrap/dist/css/bootstrap.min.css";
 
-// import { useState } from "react";
-import { ReactQueryDevtools } from "react-query/devtools";
-import { QueryClient, QueryClientProvider } from "react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import Layout from "../components/layout";
 

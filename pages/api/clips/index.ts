@@ -10,7 +10,11 @@ export default async function clipsHandler(
   switch (method) {
     case "GET":
       try {
-        result = "test";
+        console.log("fetching");
+        const result = await fetch(
+          "https://assets.dev.verse-core.vrse.gg/frontend-interview/data.json"
+        );
+        console.log();
         res.status(200).json(result.data);
       } catch (error: any) {
         res.status(error.response.status).send(error.response.data);
