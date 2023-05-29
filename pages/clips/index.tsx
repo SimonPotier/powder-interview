@@ -5,6 +5,8 @@ import { useRouter } from "next/router";
 import useClip from "../hooks/useClip";
 import ClipModal from "../../components/modals/clipModal";
 import moment from "moment";
+import { inter } from "..";
+import { fetchClips } from "../actions/clips";
 
 export default function Clips({ clips }) {
   const {
@@ -36,7 +38,7 @@ export default function Clips({ clips }) {
   };
 
   return (
-    <>
+    <div className={inter.className}>
       <ClipCategory
         showSeeAll={false}
         clips={filterClips(clips, category)}
@@ -49,17 +51,14 @@ export default function Clips({ clips }) {
         body={bodyContent}
         onClose={() => handleClipModalToggle(false)}
       />
-    </>
+    </div>
   );
 }
 
 export const getStaticProps: GetStaticProps<{
   clips: Clip;
 }> = async () => {
-  const res = await fetch(
-    "https://assets.dev.verse-core.vrse.gg/frontend-interview/data.json"
-  );
-  const clips = await res.json();
+  const clips = await fetchClips();
   return {
     props: { clips },
     // revalidate data every 60 seconds

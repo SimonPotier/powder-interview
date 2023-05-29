@@ -22,15 +22,10 @@ const ClipModal: React.FC<ModalProps> = ({ isOpen, onClose, title, body }) => {
 
   return (
     <Modal show={showModal} onHide={handleClose}>
-      <Modal.Header closeButton>
+      <Modal.Header closeButton closeVariant="white">
         <Modal.Title>{title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>{body}</Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
-          Close
-        </Button>
-      </Modal.Footer>
     </Modal>
   );
 };

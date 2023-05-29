@@ -1,24 +1,20 @@
-$body-bg: #141517;
-$body-color: #FFF;
-
 $custom-grey: #858897;
+$border-grey: #2b2d30;
 $custom-black: #141517;
 
+$body-bg: #141517;
+$body-color: #FFF;
+$modal-content-bg:  #141517;
+$modal-header-border-color: $border-grey;
+$body-font-family: 'Inter', sans-serif;
 
 $theme-colors: (
-  // "primary": red,
   "secondary": #858897,
   "success": #cf0
 );
 
 @import '~bootstrap/scss/bootstrap.scss';
 
-
-:root {
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-}
 
 * {
   box-sizing: border-box;
@@ -38,12 +34,12 @@ a {
 }
 
 .navbar {
-  background-color:#141517;
+  background-color: $body-bg;
   margin-bottom: 2em;
 }
 
 .page-header {
-  border-bottom: 1px solid #2b2d30;
+  border-bottom: 1px solid $border-grey;
   padding: 0 0 1em 0;
   .page-header-content-wrapper {
   }
@@ -138,9 +134,37 @@ a {
   }
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .category .category-body .category-clip-wrapper {
+    flex-basis: 50%;
+  }
+}
 
-@media (prefers-color-scheme: #141517) {
-  html {
-    color-scheme: #141517;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .category .category-body .category-clip-wrapper {
+    flex-basis: 50%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .category .category-body .category-clip-wrapper {
+    flex-basis: 33.3%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .category .category-body .category-clip-wrapper {
+    flex-basis: 25%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .category .category-body .category-clip-wrapper {
+    flex-basis: 20%;
   }
 }
