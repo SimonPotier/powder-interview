@@ -4,7 +4,7 @@ import Clip from "./clip";
 
 interface ClipCategoryProps {
   clips: ClipProps[];
-  name: string;
+  name: string | string[];
   handleCurrentClip: (clip: ClipProps) => void;
   showSeeAll: boolean;
 }
@@ -27,7 +27,7 @@ const ClipCategory: React.FC<ClipCategoryProps> = ({
           )}
         </div>
       </div>
-      <div className="category-body d-flex justify-content-between">
+      <div className="category-body d-flex justify-content-between flex-wrap">
         {clips.map((clip, index) => (
           <Clip
             key={index}
