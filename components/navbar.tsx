@@ -10,9 +10,9 @@ const NavbarComponent = () => {
         <Navbar.Brand>
           <Link href="/">
             <Image
-              src="/powder-logo.svg"
-              width={20}
-              height={20}
+              src="/images/powder-logo.svg"
+              width={18}
+              height={18}
               alt="Powder logo"
             />
           </Link>

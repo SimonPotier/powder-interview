@@ -2,9 +2,9 @@ import Head from "next/head";
 import type { GetStaticProps } from "next";
 
 import ClipCategory from "../components/clip/clipCategory";
-import { useCallback, useMemo, useState } from "react";
+import { useMemo } from "react";
 import ClipModal from "../components/modals/clipModal";
-import Player from "../components/player";
+import useClip from "./hooks/useClip";
 
 export interface Clip {
   category: string;
@@ -14,27 +14,19 @@ export interface Clip {
 }
 
 export default function Home({ clips }) {
-  const [currentClip, setCurrentClip] = useState(null);
-  const [clipModalOpen, setClipModalOpen] = useState(false);
+  const {
+    handleCurrentClip,
+    handleClipModalToggle,
+    currentClip,
+    clipModalOpen,
+    bodyContent,
+  } = useClip();
 
   const findCategories = (clips: Clip[]): string[] => {
     return [...new Set(clips.map((clip) => clip.category))];
   };
 
   const clipCategories = useMemo(() => findCategories(clips), [clips]);
-
-  const handleCurrentClip = useCallback(
-    (clip: Clip) => {
-      setCurrentClip(clip);
-      setClipModalOpen(true);
-    },
-    [setCurrentClip, setClipModalOpen]
-  );
-
-  const bodyContent = useMemo(
-    () => <Player clip={currentClip} />,
-    [currentClip]
-  );
 
   return (
     <>
@@ -68,9 +60,9 @@ export default function Home({ clips }) {
         )}
         <ClipModal
           isOpen={clipModalOpen}
-          title="Filters"
+          title={currentClip?.category}
           body={bodyContent}
-          onClose={() => setClipModalOpen(false)}
+          onClose={() => handleClipModalToggle(false)}
         />
       </main>
     </>
