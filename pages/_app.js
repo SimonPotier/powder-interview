@@ -1,5 +1,4 @@
 import "../styles/globals.scss";
-import "../styles/index.scss";
 
 import Layout from "../components/layout";
 
