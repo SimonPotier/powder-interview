@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders homepage 1`] = `
+<div>
+  <main
+    class="className"
+  >
+    <div
+      class="category"
+    >
+      <div
+        class="category-heading"
+      >
+        <div
+          class="d-flex justify-content-between"
+        >
+          <div>
+            Recents
+          </div>
+          <a
+            href="/clips?category=Recents"
+          >
+            <div
+              class="text-success"
+            >
+              See all
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="category-body d-flex justify-content-between flex-wrap"
+      >
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="MOBA"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            19 hours ago
+          </div>
+        </div>
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="Action-adventure"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            7 hours ago
+          </div>
+        </div>
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="Action-adventure"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            4 hours ago
+          </div>
+        </div>
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="Action-adventure"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            15 hours ago
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="category"
+    >
+      <div
+        class="category-heading"
+      >
+        <div
+          class="d-flex justify-content-between"
+        >
+          <div>
+            MOBA
+          </div>
+          <a
+            href="/clips?category=MOBA"
+          >
+            <div
+              class="text-success"
+            >
+              See all
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="category-body d-flex justify-content-between flex-wrap"
+      >
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="MOBA"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F98951058-32a3-4853-945c-371d8219e4e8%2F998093aa-d6a5-45b7-b8ba-fb6bc04dd3ee.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            19 hours ago
+          </div>
+        </div>
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="MOBA"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2Fb3b4a192-a9a2-46fc-931f-e271f92bc397.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            6 hours ago
+          </div>
+        </div>
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="MOBA"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F9c1d9edf-0a66-48f1-b310-2814f8409b86%2F2517bdbd-9a72-4797-bccb-b741cc793e37.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            1 hours ago
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="category"
+    >
+      <div
+        class="category-heading"
+      >
+        <div
+          class="d-flex justify-content-between"
+        >
+          <div>
+            Action-adventure
+          </div>
+          <a
+            href="/clips?category=Action-adventure"
+          >
+            <div
+              class="text-success"
+            >
+              See all
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="category-body d-flex justify-content-between flex-wrap"
+      >
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="Action-adventure"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F2c376d23-af8c-4fa7-b592-60e806073ab3%2F448685ad18e0a047cacdd108b9e1a4f5.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            7 hours ago
+          </div>
+        </div>
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="Action-adventure"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2Fca763336-d5b8-44f4-9ec5-15807fe64163%2F20bab77c-5896-43c3-b3e3-6515a60ea9b1.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            4 hours ago
+          </div>
+        </div>
+        <div
+          class="category-clip-wrapper"
+          data-testid="category-clip"
+        >
+          <div
+            class="category-clip"
+          >
+            <img
+              alt="Action-adventure"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fassets.dev.verse-core.vrse.gg%2Ffrontend-interview%2F427fa43a-ceee-495b-be4c-c4d9b007504b%2F10c77e94-f6ea-474b-b3bb-5e55b1c7c773.jpeg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="category-clip-date text-secondary"
+          >
+            15 hours ago
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;

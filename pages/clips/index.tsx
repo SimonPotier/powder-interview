@@ -21,7 +21,7 @@ export default function Clips({ clips }) {
     bodyContent,
   } = useClip();
   const router = useRouter();
-  const { category, isReady } = router.query;
+  const { category } = router.query;
 
   const filterClips = (clips, category): Clip[] => {
     let filteredClips;

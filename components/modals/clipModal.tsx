@@ -27,7 +27,7 @@ const ClipModal: React.FC<ModalProps> = ({ isOpen, onClose, title, body }) => {
   return (
     <Modal show={showModal} onHide={handleClose}>
       <Modal.Header closeButton closeVariant="white">
-        <Modal.Title>{title}</Modal.Title>
+        <Modal.Title data-testid="modal-header">{title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>{body}</Modal.Body>
     </Modal>

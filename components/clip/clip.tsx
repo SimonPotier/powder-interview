@@ -6,6 +6,7 @@ const Clip = ({ clip, handleCurrentClip }) => {
     <div
       className="category-clip-wrapper"
       onClick={() => handleCurrentClip(clip)}
+      data-testid="category-clip"
     >
       <div className="category-clip">
         <Image
